@@ -32,7 +32,7 @@
   <category>Root Actions</category>
   <description>Open a root terminal in the directory</description>
   <command run_as="root">konsole</command>
-  <startpath>/home/anex</startpath>
+  <startpath>/</startpath>
  </action>
  <action name="rootactions_copy">
   <title>&amp;Copy</title>
