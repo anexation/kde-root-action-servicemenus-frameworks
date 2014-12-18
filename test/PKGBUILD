@@ -14,10 +14,10 @@ source=("git+https://github.com/anexation/kde-root-action-servicemenus-framework
 md5sums=('SKIP')
 
 package() {
-mkdir -p "/usr/share/apps/krusader"
-cp -a --no-preserve=ownership "${srcdir}/kde-root-action-servicemenus-frameworks/10-rootactionsfolders.desktop" "/usr/share/kservices5/ServiceMenus"
-cp -a --no-preserve=ownership "${srcdir}/kde-root-action-servicemenus-frameworks/11-rootactionsfiles.desktop" "/usr/share/kservices5/ServiceMenus"
-cp -a --no-preserve=ownership "${srcdir}/kde-root-action-servicemenus-frameworks/rootactions-servicemenu.pl" "/usr/bin"
-cp -a --no-preserve=ownership "${srcdir}/kde-root-action-servicemenus-frameworks/root-servicemenu.xml" "/usr/share/apps/krusader"
-
+cd $srcdir/kde-root-action-servicemenus-frameworks
+mkdir -p $pkgdir/usr/share/apps/krusader/
+install -Dm755 root-servicemenu.xml $pkgdir/usr/share/apps/krusader/root-servicemenu.xml
+install -Dm755 10-rootactionsfolders.desktop $pkgdir/usr/share/kservices5/ServiceMenus/10-rootactionsfolders.desktop
+install -Dm755 11-rootactionsfiles.desktop $pkgdir/usr/share/kservices5/ServiceMenus/11-rootactionsfiles.desktop
+install -Dm777 rootactions-servicemenu.pl $pkgdir/usr/bin/rootactions-servicemenu.pl
 }
