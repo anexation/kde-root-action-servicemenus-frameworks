@@ -2,7 +2,7 @@
 
 pkgname=kde-root-action-servicemenus-frameworks
 pkgver=20141218
-pkgrel=1
+pkgrel=3
 pkgdesc="Allows admin users to perform several root only actions from dolphin via kdesu/kdesudo"
 arch=('any')
 url="https://github.com/anexation/kde-root-action-servicemenus-frameworks"

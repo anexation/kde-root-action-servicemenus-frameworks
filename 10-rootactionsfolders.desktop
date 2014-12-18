@@ -64,7 +64,7 @@ Name[tr]=Uçbirimi Burada Aç
 #Name[xx]=Your string 'xx' is the country abbreviation
 
 [Desktop Action OpenInFilemanager]
-Exec=kdesu dolphin --workdir %d
+Exec=rootactions-servicemenu.pl open_with defaultfm %U
 Icon=system-file-manager
 Name=Open in File Manager
 Name[ca]=Obre en el gestor de fitxers
