@@ -1,0 +1,15 @@
+pkgbase = kde-root-action-servicemenus-frameworks
+	pkgdesc = Allows admin users to perform several root only actions from dolphin via kdesu/kdesudo
+	pkgver = 20141217
+	pkgrel = 1
+	url = https://github.com/anexation/kde-root-action-servicemenus-frameworks
+	arch = any
+	license = GPL
+	depends = dolphin-frameworks-git
+	depends = kdialog-frameworks-git
+	depends = ark-frameworks-git
+	optdepends= krusader-git
+	source = git+https://github.com/anexation/kde-root-action-servicemenus-frameworks.git
+
+pkgname = kde-root-action-servicemenus-frameworks
+

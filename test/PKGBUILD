@@ -9,6 +9,7 @@ url="https://github.com/anexation/kde-root-action-servicemenus-frameworks"
 license=('GPL')
 makedepends=('git')
 depends=('dolphin-frameworks-git' 'kdialog-frameworks-git' 'ark-frameworks-git')
+optdepends=("krusader-git")
 source=("git+https://github.com/anexation/kde-root-action-servicemenus-frameworks.git")
 md5sums=('SKIP')
 
