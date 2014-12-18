@@ -34,7 +34,7 @@ X-KDE-Submenu[tr]=&Yetkili Eylemleri
 #X-KDE-Submenu[xx]=Your string 'xx' is the country abbreviation
 
 [Desktop Action OpenInKonsole]
-Exec=rootactions-servicemenu.pl root_konsole_here konsole %U
+Exec=kdesu konsole --workdir %d
 Icon=utilities-terminal
 Name=Open Terminal Here
 Name[ca]=Obre terminal aquí
@@ -64,7 +64,7 @@ Name[tr]=Uçbirimi Burada Aç
 #Name[xx]=Your string 'xx' is the country abbreviation
 
 [Desktop Action OpenInFilemanager]
-Exec=rootactions-servicemenu.pl open_with defaultfm %U
+Exec=kdesu dolphin --workdir %d
 Icon=system-file-manager
 Name=Open in File Manager
 Name[ca]=Obre en el gestor de fitxers

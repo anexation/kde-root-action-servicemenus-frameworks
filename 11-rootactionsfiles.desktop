@@ -64,7 +64,7 @@ Name[tr]=Metin olarak aç
 #Name[xx]=Your string 'xx' is the country abbreviation
 
 [Desktop Action OpenInKonsoleFile]
-Exec=rootactions-servicemenu.pl root_konsole_here konsole $(dirname "%f")
+Exec=kdesu konsole --workdir %d
 Icon=utilities-terminal
 Name=Open Terminal Here
 Name[ca]=Obre terminal aquí
@@ -94,7 +94,7 @@ Name[tr]=Uçbirimi Burada Aç
 #Name[xx]=Your string 'xx' is the country abbreviation
 
 [Desktop Action OpenInFilemanagerFile]
-Exec=rootactions-servicemenu.pl open_with defaultfm $(dirname "%f")
+Exec=kdesu dolphin --workdir %d
 Icon=system-file-manager
 Name=Open File Manager Here
 Name[ca]=Obre gestor de fitxers aquí

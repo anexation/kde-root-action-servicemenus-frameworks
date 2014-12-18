@@ -1,7 +1,7 @@
 # Maintainer: anex <assassin.anex[@]gmail.com>
 
 pkgname=kde-root-action-servicemenus-frameworks
-pkgver=20141217
+pkgver=20141218
 pkgrel=1
 pkgdesc="Allows admin users to perform several root only actions from dolphin via kdesu/kdesudo"
 arch=('any')
